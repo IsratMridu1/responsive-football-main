@@ -493,6 +493,10 @@ text-align: center;
 @media only screen and (max-width:688px) {
 
 
+.menu-options{
+   display: none;
+}
+
 .players{
 
     display: grid;
@@ -677,9 +681,66 @@ text-align: center;
 
     
 }
-.organoze{
+.organize{
 
     display: inline;
+}
+.header{
+
+    width: 360px;
+    height: 695px;
+}
+.title h1{
+
+    font-size: 36px;
+    position: relative;
+    right: 110px;
+
+}
+
+.title a{
+
+    position: relative;
+    margin-top: 0;
+    margin-right: 100px;
+  
+    margin-left: 45px;
+    font-size: 16px;
+    padding: 10px 24px;
+    
+}
+
+.menu-login{
+
+    position: relative;
+    font-size: 16px;
+ 
+    height: 33px;
+    width: 89px;
+    padding: 10px 24px;
+    display: none;
+}
+
+.first-header{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title i{
+
+    position: relative;
+    
+}
+
+.first-header img{
+
+    /* width: 60%; */
+    position: relative;
+    height: 230px;
+    width: 329px;
+    bottom: 20px;
 }
 
 }
