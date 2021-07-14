@@ -220,7 +220,7 @@ body{
 
 
     margin-top: 0;
-    margin-bottom: 158px;
+    margin-bottom: 110px;
 }
 
 .highlight-section{
@@ -283,6 +283,11 @@ body{
     justify-content: center;
     flex-direction: column;
     margin-left: 475px;
+}
+.social-media{
+
+    margin-top: 0;
+    margin-bottom: 63px;
 }
 
 
@@ -354,3 +359,116 @@ body{
     border-radius: 20px;
     color: whitesmoke;
 }
+
+.lone-h1{
+
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+
+}
+.entertainment{
+
+    margin-top: 70px;
+    width: 1500px;
+    margin-bottom: 120px;
+}
+.entertainment h1{
+text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    
+}
+
+.entertainment-dimension{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.entertainment-detais{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 35px;
+    grid-column-gap: 35px;
+  
+}
+
+.entertainment-resources{
+
+    display: flex;
+    flex-direction: column;
+    
+    width: 360px;
+    height: 300px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+}
+
+.entertainment-resources video{
+
+    width: 328px;
+    height: 256px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    
+  
+}
+
+.entertainment-resources h2{
+
+    margin-top: 0;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.entertainment-resources p{
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    color: #6C6C6C;
+  
+}
+
+.jersey{
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #a7391d;
+   
+
+    
+}
+
+.jersey-info{
+
+    margin-top: 70px;
+    width: 1500px;
+    margin-bottom: 120px;
+    
+}
+
+.jersey-dimension{
+
+   
+
+        display: flex;
+        flex-direction: column;
+        
+        width: 330px;
+        height: 390px;
+        border: 5px solid white;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        
+    
+}
+
