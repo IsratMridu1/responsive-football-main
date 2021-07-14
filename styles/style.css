@@ -4,7 +4,7 @@
 header{
 
     height: 677px;
-    width: 1519px;
+  
   
     animation: live 20s ease-in-out  infinite;
 }
@@ -51,7 +51,9 @@ body{
     background-color: #E02C6D;
     padding: 10px 24px;
    
+   
 }
+
 
 /* starting section style */
 
@@ -148,7 +150,7 @@ body{
 .players-info{
 
     margin-top: 70px;
-    width: 1500px;
+  
     margin-bottom: 120px;
 }
 
@@ -371,7 +373,7 @@ body{
 .entertainment{
 
     margin-top: 70px;
-    width: 1500px;
+   
     margin-bottom: 120px;
 }
 .entertainment h1{
@@ -459,7 +461,7 @@ text-align: center;
 .jersey-info{
 
     margin-top: 70px;
-    width: 1500px;
+   
     margin-bottom: 120px;
     
 }
@@ -479,3 +481,19 @@ text-align: center;
     
 }
 
+/* Media Queris */
+
+/* mobile devices */
+
+@media only screen and (max-width:688px) {
+
+    header{
+
+        display: none;
+    }
+    .players-info{
+
+        width: 100%;
+    }
+
+}
